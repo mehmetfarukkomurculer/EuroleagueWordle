@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { players } from './data/players';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>{players[48].name}</Text>
+      <View style={{padding: 15,}}>
+        <Image source={{uri: players[48].imgUrl}} style={{width: 200, height:200 }} />
+      </View>
       <StatusBar style="auto" />
     </View>
   );
