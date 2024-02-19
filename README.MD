@@ -1,8 +1,8 @@
 todo
+// remaining teams bayern, efes, alba, asvel
+// age, height info update needed
+// player img info needed
 
-// oyuncu boy yaş bilgisi eklencek
-// oyunucu fotoları yüklencek
+// country and team images update needed
 
-// ülke ve takım fotoları yüklencek
-
-// datalar hazır olduktan sonra implement başlatılacak
+// implement the logic

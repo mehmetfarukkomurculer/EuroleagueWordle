@@ -1933,350 +1933,652 @@ export const players = [
   },
   //BASKONIA
   {
-    id: 145,
+    id: 129,
     country: countries[17].name,
     countryImgUrl: countries[17].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 198,
+    age: 28,
     number: 95,
     name: "Chima Moneke",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/chima-moneke-1-1ee7e7ae-5383-614a-8870-87efce319f5e.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 146,
+    id: 130,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 183,
+    age: 28,
     number: 3,
     name: "Christopher Xavier Chiozza",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/sans-titre-1-1ee86671-c552-6c0c-8908-79ece220fcda.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 147,
+    id: 131,
     country: countries[31].name,
     countryImgUrl: countries[31].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 191,
+    age: 29,
     number: 10,
     name: "Codi Tyree Miller-McIntyre",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/codi-miller-mcintyre-1-1ee7e7af-7a67-60bc-9c67-93ec94c14d24.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 148,
+    id: 132,
     country: countries[0].name,
     countryImgUrl: countries[0].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 200,
+    age: 30,
     number: 11,
-    name: "Danil Diez",
-    imgUrl: "", // required
+    name: "Daniel Diez",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/daniel-diez-1-1ee7e7b1-75f3-6a38-abd2-0f259677eb25.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 149,
+    id: 133,
     country: countries[32].name,
     countryImgUrl: countries[32].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 182, 
+    age: 34,
     number: 25,
     name: "Jordan Theodore",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/25-jordan-theodore-1-1ee78376-b1ff-6c2e-a3b5-4f0dc64d8788.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 150,
-    country: countries[0].name,
-    countryImgUrl: countries[0].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 4,
-    name: "Joseba Querejeta",
-    imgUrl: "", // required
-    team: teams[8].teamName,
-    teamImgUrl: teams[8].teamImgUrl,
-  },
-  {
-    id: 151,
+    id: 134,
     country: countries[12].name,
     countryImgUrl: countries[12].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 212,
+    age: 21,
     number: 18,
     name: "Khalifa Ababacar Diop",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/khalifa-diop-1-1ee7e80b-31df-639c-b60c-77c0db9d3b92.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 152,
+    id: 135,
     country: countries[33].name,
     countryImgUrl: countries[33].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 211,
+    age: 27,
     number: 21,
     name: "Maik Kotsar",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/maik-kotsar-1-1ee7e81b-d5b8-6e54-a4e3-5fa39b720c05.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 153,
+    id: 136,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 180,
+    age: 24,
     number: 0,
     name: "Markus Howard",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/markus-howard-1-1ee7e821-ef38-6d42-9e21-7b8691d337d3.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 154,
+    id: 137,
     country: countries[34].name,
     countryImgUrl: countries[34].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 208,
+    age: 30,
     number: 24,
     name: "Matthew Costello",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/matthew-costello-1-1ee7e827-2414-626e-8784-e792ffc192b4.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 155,
+    id: 138,
     country: countries[16].name,
     countryImgUrl: countries[16].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 190,
+    age: 22,
     number: 1,
     name: "Nicolo Mannion",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/niccolo-mannion-1-1ee7e839-2f0e-61e4-83bb-676ef3c0bb6a.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 156,
+    id: 139,
     country: countries[5].name,
     countryImgUrl: countries[5].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 203,
+    age: 22,
     number: 17,
     name: "Nikolaus Agapitos Rogkavopoulos",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nikolaos-rogkavopoulos-1-1ee7e840-78cb-6a0a-95c1-c199b261336a.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 160,
+    id: 140,
     country: countries[33].name,
     countryImgUrl: countries[33].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 204,
+    age: 24,
     number: 2,
-    name: "sander Raieste",
-    imgUrl: "", // required
+    name: "Sander Raieste",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/sander-raieste-1-1ee7e84f-afca-6a60-9b5d-4700bfc94e9c.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 162,
+    id: 141,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 200,
+    age: 25,
     number: 8,
     name: "Tadas Sedekerskis",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/tadas-sedekerskis-1-1ee7e85d-cf62-6874-8fb2-e363440214b9.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   {
-    id: 163,
+    id: 142,
     country: countries[6].name,
     countryImgUrl: countries[6].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 198,
+    age: 26,
     number: 9,
     name: "Vanya Marinkovic",
-    imgUrl: "", // required
-    team: teams[8].teamName,
-    teamImgUrl: teams[8].teamImgUrl,
-  },
-  {
-    id: 164,
-    country: countries[35].name,
-    countryImgUrl: countries[35].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 33,
-    name: "Vit Hrabar",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/vanja-marinkovic-1-1ee7e867-82bb-6f16-a636-bddf064418f4.png",
     team: teams[8].teamName,
     teamImgUrl: teams[8].teamImgUrl,
   },
   //M TEL AVIV
   {
-    id: 165,
+    id: 143,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[1].positionName,
     positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[1].positionShortening,
+    height: 198,
+    age: 29,
     number: 1,
     name: "Antonius Cleveland",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/antonius-cleveland-1-1ee7e79f-b94a-61c2-8177-0b45cb431968.png",
     team: teams[9].teamName,
     teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 144,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 193,
+    age: 30,
+    number: 13,
+    name: "Joe Thomasson",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/joe-thomasson-1ee5fcb5-7b2a-6dbe-82d7-1b305a9ae6a3.jpg",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 145,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 198,
+    age: 27,
+    number: 50,
+    name: "Bonzie Colson",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/bonzie-colson-1-1ee7e7a3-4a11-66bc-92e4-3ffe3055e4bb.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 146,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 209,
+    age: 33,
+    number: 15,
+    name: "Jacob Cohen",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/jake-cohen-1-1ee7e7e7-db39-602e-bae6-9f8ba090c485.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 147,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 204,
+    age: 30,
+    number: 3,
+    name: "James Webb",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/james-webb-iii-1-1ee7e7ea-6615-67c2-9e57-4195c34b29fd.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 148,
+    country: countries[36].name,
+    countryImgUrl: countries[36].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 203,
+    age: 30,
+    number: 14,
+    name: "Jasiel Rivero",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/jasiel-rivero-1-1ee7e7ec-d932-6e2e-bf6f-1168e0b7135e.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 149,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 183, 
+    age: 32,
+    number: 12,
+    name: "John DiBartolomeo",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/john-dibartolomeo-1-1ee7e7ff-82ae-6ba8-8c43-839d075f8168.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 150,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 205,
+    age: 26,
+    number: 32,
+    name: "Joshua Okechukwu Nebo",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/josh-nebo-1-1ee7e804-11f8-6e0e-a2ef-ffce6cfe2590.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 151,
+    country: countries[0].name,
+    countryImgUrl: countries[0].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 198,
+    age: 33,
+    number: 4,
+    name: "Lorenzo Brown",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/lorenzo-brown-1-1ee7e817-4c30-6064-b3fc-c93570259e16.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 152,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 187,
+    age: 17,
+    number: 17,
+    name: "Omer Mayer",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/omer-mayer31-1ee2d8fe-4074-6a18-a91e-e30e05c419c0.jpg",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 153,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 200,
+    age: 29,
+    number: 8,
+    name: "Rafael Menco",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/rafi-menco-1-1ee7e848-8786-64ca-8851-67f856c5d5a9.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 154,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 193,
+    age: 18,
+    number: 18,
+    name: "Roi Behar",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/roi-behar21-1ee2d906-a22b-657e-a4ae-596a0dedccef.jpg",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 155,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 208,
+    age: 27,
+    number: 9,
+    name: "Roman Sorkin",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/roman-sorkin-1-1ee7e84c-9f00-650c-93d7-5bb769c0db80.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 156,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 194,
+    age: 18,
+    number: 16,
+    name: "Shachar Doron",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/shachar-doron22-1ee2d901-5125-6a58-95a9-c9930f59d249.jpg",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 157,
+    country: countries[9].name,
+    countryImgUrl: countries[9].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 184,
+    age: 26,
+    number: 45,
+    name: "Tamir Blatt",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/tamir-blatt-1-1ee7e85e-5147-64de-abec-f7c9abc443ce.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  {
+    id: 158,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 193,
+    age: 27,
+    number: 5,
+    name: "Wade Baldwin IV",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/wade-baldwin-iv-1-1ee7e86c-e7c8-6e2c-bac7-ef7c8c90c509.png",
+    team: teams[9].teamName,
+    teamImgUrl: teams[9].teamImgUrl,
+  },
+  //PARTIZAN
+  {
+    id: 159,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 192,
+    age: 29,
+    number: 4,
+    name: "Aleksa Avramovic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/aleksa-avramovic-1-1ee86390-0864-648a-911c-67b618e972f9.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 160,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 208,
+    age: 23, 
+    number: 9,
+    name: "Alen Smailagic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/alen-smailagic-1-1ee863f3-ece5-6a06-871e-d385a6bca54c.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 161,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 216,
+    age: 23,
+    number: 5,
+    name: "Balsa Koprivica",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/balsa-koprivica-1-1ee863bd-cb12-6c0c-a258-c3c9571aa022.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 162,
+    country: countries[7].name,
+    countryImgUrl: countries[7].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 206,
+    age: 28,
+    number: 50,
+    name: "Bruno Caboclo",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/50395-1-60dc44f9e55a3.jpg",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 163,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 195,
+    age: 32,
+    number: 33,
+    name: "Danilo Andjusic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/danilo-andusic-1-1ee8638d-be36-6126-b928-b35c87d732c9.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 164,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 211,
+    age: 30,
+    number: 44,
+    name: "Frank Kaminsky",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/frank-kaminsky-1-1ee863b8-a0b4-688e-8ce3-b36ddd86e3e8.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
+  },
+  {
+    id: 165,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 201,
+    age: 33,
+    number: 21,
+    name: "James Nunnally",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/james-nunnally-1-1ee863dd-486c-6c88-b5e2-97782ad9fdf8.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 166,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 13,
-    name: "Ben Joshua Carter",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 193,
+    age: 30,
+    number: 7,
+    name: "Kevin Punter",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/kevin-punter-1-1ee863e7-1238-6068-ba23-1539881b6ffd.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 167,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
+    country: countries[24].name,
+    countryImgUrl: countries[24].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 50,
-    name: "Bonzie Colson",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[2].positionShortening,
+    height: 198,
+    age: 30,
+    number: 37,
+    name: "Mateusz Ponitka",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/mateusz-ponitka-1-1ee863e4-6168-68f2-a135-a34b1441bc0e.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 168,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 15,
-    name: "Jacob Cohen",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 193,
+    age: 28,
+    number: 10,
+    name: "Ognjen Yaramaz",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/ognjen-jaramaz-1-1ee863af-d4a0-6700-8df3-31e51f01505f.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 169,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 3,
-    name: "James Webb",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 199,
+    age: 27,
+    number: 35,
+    name: "Pery Dozier Jr.",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/pj-dozier-1-1ee8639c-8ca5-621a-be3e-6d576fc2b01a.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
+  
   {
     id: 170,
-    country: countries[36].name,
-    countryImgUrl: countries[36].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 14,
-    name: "Jasiel Rivero",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 208,
+    age: 20,
+    number: 1,
+    name: "Tristan Vukcevic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/tristan-vukcevic-1-1ee86403-6993-662a-b1b2-7f875c83486a.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 171,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 12,
-    name: "John DiBartolomeo",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 199,
+    age: 23,
+    number: 32,
+    name: "Uros Trifunovic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/uros-trifunovic-1-1ee86400-3247-6fde-955d-71533d80c3c1.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
   {
     id: 172,
@@ -2284,210 +2586,210 @@ export const players = [
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 32,
-    name: "Joshua Okechukwu Nebo",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[4].positionShortening,
+    height: 202,
+    age: 29,
+    number: 2,
+    name: "Zach Leday",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/zach-leday-1-1ee863c3-e751-62d2-baf1-974825fc1e27.png",
+    team: teams[10].teamName,
+    teamImgUrl: teams[10].teamImgUrl,
   },
+  //KIZILYILDIZ
   {
     id: 173,
-    country: countries[0].name,
-    countryImgUrl: countries[0].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 4,
-    name: "Lorenzo Brown",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[38].name,
+    countryImgUrl: countries[38].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 200,
+    age: 34,
+    number: 5,
+    name: "Adam Hanga",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/adam-hanga-1-1ee863a8-f4c5-65dc-940b-03e8c3633240.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 174,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 17,
-    name: "Omer Mayer",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[0].positionShortening,
+    height: 195,
+    age: 34,
+    number: 10,
+    name: "Branko Lazic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/branko-lazic-1-1ee7e7a6-c3ba-6ce0-850c-d5049cfacf56.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 175,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 21,
-    name: "Oren Sahar",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 202,
+    age: 23,
+    number: 22,
+    name: "Dalibor Ilic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/dalibor-ilic-1-1ee863aa-15e7-62dc-ad83-a969781bf470.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 176,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 8,
-    name: "Rafael Menco",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[2].positionShortening,
+    height: 202,
+    age: 28,
+    number: 7,
+    name: "Dejan Davidovac",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/dejan-davidovac-1-1ee86399-c255-6232-82e8-4bb63a42ae55.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 177,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 18,
-    name: "Roi Behar",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[3].name,
+    countryImgUrl: countries[3].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 206,
+    age: 26,
+    number: 33,
+    name: "Frederick Gillespie",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/freddie-gillespie-1-1ee8c846-5703-6940-aa3b-89fb19335fac.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 178,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 9,
-    name: "Roman Sorkin",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
-  },
-  {
-    id: 179,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 16,
-    name: "Shachar Doron",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
-  },
-  {
-    id: 180,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 45,
-    name: "Tamir Blatt",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
-  },
-  {
-    id: 181,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 5,
-    name: "Wade Baldwin IV",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[0].positionShortening,
+    height: 193,
+    age: 24,
+    number: 1,
+    name: "Ja'vonte Smart",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/55395-1-57c2c1Sans-titre-1.jpg",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
+  },
+  {
+    id: 179,
+    country: countries[10].name,
+    countryImgUrl: countries[10].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 205,
+    age: 29,
+    number: 21,
+    name: "Joel Bolomboy",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/joel-bolomboy-1-1ee86394-80db-6e1e-9b30-c17c1036164c.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
+  },
+  {
+    id: 180,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 206,
+    age: 30,
+    number: 9,
+    name: "Luka Mitrovic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/luka-mitrovic-1-1ee863d5-d4a5-6a4a-993b-f35bda79faff.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
+  },
+  {
+    id: 181,
+    country: countries[37].name,
+    countryImgUrl: countries[37].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 214,
+    age: 24,
+    number: 11,
+    name: "Marko Simonovic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/marko-simonovic-1-1ee863f1-563c-6160-829d-9b0f22847905.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 182,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 19,
-    name: "Yaron Goldman",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    country: countries[35].name,
+    countryImgUrl: countries[35].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 213,
+    age: 29,
+    number: 18,
+    name: "Mike Tobey",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/mike-tobey-1-1ee863fd-d3bb-6e40-a9ff-0113d13c394f.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 183,
-    country: countries[9].name,
-    countryImgUrl: countries[9].imgUrl,
+    country: countries[6].name,
+    countryImgUrl: countries[6].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 20,
-    name: "Ziv Berko",
-    imgUrl: "", // required
-    team: teams[9].teamName,
-    teamImgUrl: teams[9].teamImgUrl,
+    positionShortening: positions[0].positionShortening,
+    height: 195,
+    age: 36, 
+    number: 4,
+    name: "Milos Teodosic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/milos-teodosic-1-1ee863fc-a269-69ce-9323-a367aab62088.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
-  //PARTIZAN
   {
     id: 184,
     country: countries[6].name,
     countryImgUrl: countries[6].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 4,
-    name: "Aleksa Avramovic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 192,
+    age: 32,
+    number: 26,
+    name: "Nemanja Nedovic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nemanja-nedovic-1-1ee863db-7c07-6702-ab28-f537399ffffa.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 185,
     country: countries[6].name,
     countryImgUrl: countries[6].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 9,
-    name: "Alen Smailagic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 195,
+    age: 18,
+    number: 44,
+    name: "Nikola Topic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nikola-topic-1-1ee863ff-af6a-64d6-905a-7b6a2a7a533f.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 186,
@@ -2495,209 +2797,210 @@ export const players = [
     countryImgUrl: countries[6].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 5,
-    name: "Balsa Koprivica",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[4].positionShortening,
+    height: 213,
+    age: 33,
+    number: 32,
+    name: "Ognjen Kuzmic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/ognjen-kuzmic-1-1ee863c0-2893-62e4-b848-e94a786ccdc4.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 187,
-    country: countries[7].name,
-    countryImgUrl: countries[7].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 50,
-    name: "Bruno Caboclo",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[19].name,
+    countryImgUrl: countries[19].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 200,
+    age: 31,
+    number: 31,
+    name: "Rokas Giedraitis",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/rokas-giedraitis-1-1ee863a1-9daa-6222-b026-0f870a453b2e.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 188,
     country: countries[6].name,
     countryImgUrl: countries[6].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 33,
-    name: "Danilo Andjusic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 198,
+    age: 27,
+    number: 2,
+    name: "Stefan Lazarevic",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/stefan-lazarevic-1-1ee863c1-d1b8-6f76-8910-5be0372c57df.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
   {
     id: 189,
-    country: countries[37].name,
-    countryImgUrl: countries[37].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 13,
-    name: "Djordije Jovanovic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[7].name,
+    countryImgUrl: countries[7].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 179,
+    age: 24,
+    number: 99,
+    name: "Yago Mateus dos Santos",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/yago-mateus-dos-santos-1-1ee8639c-29f0-696c-b9bf-7584f536bc1e.png",
+    team: teams[11].teamName,
+    teamImgUrl: teams[11].teamImgUrl,
   },
+  //O MILANO
   {
     id: 190,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
+    country: countries[34].name,
+    countryImgUrl: countries[34].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 44,
-    name: "Frank Kaminsky",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[4].positionShortening,
+    height: 206,
+    age: 30,
+    number: 2,
+    name: "Alexander Poythress",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/alex-poythress-1-1ee87d45-8204-6b22-976f-0dd94da94f6d.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 191,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 0,
-    name: "Jaleen Devon Smith",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionName: positions[1].positionName,
+    positionNumber: positions[1].positionNumber,
+    positionShortening: positions[1].positionShortening,
+    height: 188,
+    age: 33,
+    number: 12,
+    name: "Billy Baron",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/billy-baron-1-1ee87e60-93c2-6352-98f0-c7203b0dd309.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 192,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 21,
-    name: "James Nunnally",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 196,
+    age: 28,
+    number: 22,
+    name: "Devon Hall",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/devon-hall-1-1ee87d27-297c-6072-a3db-0b68217ed3c5.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 193,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
+    country: countries[16].name,
+    countryImgUrl: countries[16].imgUrl,
     positionName: positions[1].positionName,
     positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 7,
-    name: "Kevin Punter",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[1].positionShortening,
+    height: 193,
+    age: 27,
+    number: 21,
+    name: "Diego Flaccadori",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/diego-flaccadori-1-1ee87d1f-42bb-69b4-a392-07c86d009a6a.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 194,
-    country: countries[24].name,
-    countryImgUrl: countries[24].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 37,
-    name: "Mateusz Ponitka",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[16].name,
+    countryImgUrl: countries[16].imgUrl,
+    positionName: positions[3].positionName,
+    positionNumber: positions[3].positionNumber,
+    positionShortening: positions[3].positionShortening,
+    height: 201,
+    age: 32,
+    number: 17,
+    name: "Giampaolo Ricci",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/giampaolo-ricci-1-1ee87d47-1236-6dc0-b791-c3f881229d48.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 195,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
+    country: countries[16].name,
+    countryImgUrl: countries[16].imgUrl,
     positionName: positions[1].positionName,
     positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 10,
-    name: "Ognjen Yaramaz",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[1].positionShortening,
+    height: 193,
+    age: 23,
+    number: 3,
+    name: "Giordano Bortolani",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/giordano-bortolani-1-1ee87d08-2cd7-69d4-843b-dfe222482d20.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 196,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 35,
-    name: "Pery Dozier Jr.",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[16].name,
+    countryImgUrl: countries[16].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 209,
+    age: 24,
+    number: 30,
+    name: "Guglielmo Caruso",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/guglielmo-caruso-1-1ee87d0e-bd4d-668e-81fe-519107fea1bc.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 197,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 3,
-    name: "Savo Drezgic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[1].name,
+    countryImgUrl: countries[1].imgUrl,
+    positionName: positions[4].positionName,
+    positionNumber: positions[4].positionNumber,
+    positionShortening: positions[4].positionShortening,
+    height: 211,
+    age: 22,
+    number: 14,
+    name: "Ismael Kamagate",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/ismael-kamagate-1-1ee87d2c-4dc1-6b30-8c25-0d794fada32e.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 198,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
+    country: countries[20].name,
+    countryImgUrl: countries[20].imgUrl,
     positionName: positions[3].positionName,
     positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 1,
-    name: "Vristan Vukcevic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[3].positionShortening,
+    height: 211, 
+    age: 31, 
+    number: 77,
+    name: "Johannes Voigtmann",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/johannes-voigtmann-1-1ee87e58-327b-69d4-aec9-1b39d457d189.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 199,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 32,
-    name: "Uros Trifunovic",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    country: countries[2].name,
+    countryImgUrl: countries[2].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 188, 
+    age: 30,
+    number: 5,
+    name: "Kevin Pangos",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/kevin-pangos-1-1ee87d40-6fba-6b06-88dd-b5bf24a5ff1d.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 200,
@@ -2705,855 +3008,328 @@ export const players = [
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 2,
-    name: "Zach Leday",
-    imgUrl: "", // required
-    team: teams[10].teamName,
-    teamImgUrl: teams[10].teamImgUrl,
+    positionShortening: positions[4].positionShortening,
+    height: 198,
+    age: 37,
+    number: 42,
+    name: "Kyle Hines",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/kyle-hines-1-1ee87e67-1806-6df6-9f0f-01e563d84cb9.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
-  //KIZILYILDIZ
   {
     id: 201,
-    country: countries[38].name,
-    countryImgUrl: countries[38].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 5,
-    name: "Adam Hanga",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
+    country: countries[20].name,
+    countryImgUrl: countries[20].imgUrl,
+    positionName: positions[0].positionName,
+    positionNumber: positions[0].positionNumber,
+    positionShortening: positions[0].positionShortening,
+    height: 192,
+    age: 31,
+    number: 0,
+    name: "Maodo Lo",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/maodo-lo-1-1ee87d2f-7d9e-61f2-9de0-37e01d813335.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 202,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 10,
-    name: "Branko Lazic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
+    country: countries[16].name,
+    countryImgUrl: countries[16].imgUrl,
+    positionName: positions[2].positionName,
+    positionNumber: positions[2].positionNumber,
+    positionShortening: positions[2].positionShortening,
+    height: 204,
+    age: 32, 
+    number: 9,
+    name: "Nicolo Melli",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nicolo-melli-1-1ee87d35-8798-6224-8730-a78526fcab66.png",
+    team: teams[12].teamName,
+    teamImgUrl: teams[12].teamImgUrl,
   },
   {
     id: 203,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 22,
-    name: "Davidor Ilic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 204,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 7,
-    name: "Dejan Davidovac",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 205,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 33,
-    name: "Frederick Gillespie",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 206,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 1,
-    name: "Ja'vonte Smart",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 207,
-    country: countries[10].name,
-    countryImgUrl: countries[10].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 21,
-    name: "Joel Bolomboy",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 208,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 9,
-    name: "Luka Mitrovic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 209,
-    country: countries[37].name,
-    countryImgUrl: countries[37].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 11,
-    name: "Marko Simonovic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 210,
-    country: countries[35].name,
-    countryImgUrl: countries[35].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 18,
-    name: "Mike Tobey",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 211,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 4,
-    name: "Milos Teodosic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 212,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 44,
-    name: "Nemanja Bjelica",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 213,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 26,
-    name: "Nemanja Nedovic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 214,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 44,
-    name: "Nikola Topic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 215,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 32,
-    name: "Ognjen Kuzmic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 216,
-    country: countries[19].name,
-    countryImgUrl: countries[19].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 31,
-    name: "Rokas Giedraitis",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 218,
-    country: countries[6].name,
-    countryImgUrl: countries[6].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 2,
-    name: "Stefan Lazarevic",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  {
-    id: 219,
-    country: countries[7].name,
-    countryImgUrl: countries[7].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 99,
-    name: "Yago Mateus dos Santos",
-    imgUrl: "", // required
-    team: teams[11].teamName,
-    teamImgUrl: teams[11].teamImgUrl,
-  },
-  //O MILANO
-  {
-    id: 220,
-    country: countries[34].name,
-    countryImgUrl: countries[34].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 2,
-    name: "Alexander Poythress",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 221,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 12,
-    name: "Billy Baron",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 222,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 22,
-    name: "Devon Hall",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 223,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 21,
-    name: "Diego Flaccadori",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 224,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 6,
-    name: "Diego Garavaglia",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 225,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 17,
-    name: "Giampaolo Ricci",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 226,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[1].positionName,
-    positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 3,
-    name: "Giordano Bortolani",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 227,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 30,
-    name: "Guglielmo Caruso",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 228,
-    country: countries[1].name,
-    countryImgUrl: countries[1].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 14,
-    name: "Ismael Kamagate",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 229,
-    country: countries[20].name,
-    countryImgUrl: countries[20].imgUrl,
-    positionName: positions[3].positionName,
-    positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 77,
-    name: "Johannes Voigtmann",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 230,
-    country: countries[2].name,
-    countryImgUrl: countries[2].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 5,
-    name: "Kevin Pangos",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 231,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[4].positionName,
-    positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 42,
-    name: "Kyle Hines",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 232,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 12,
-    name: "Luigi Suigo",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 233,
-    country: countries[20].name,
-    countryImgUrl: countries[20].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 0,
-    name: "Maodo Lo",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 234,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 9,
-    name: "Nicolo Melli",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 235,
     country: countries[0].name,
     countryImgUrl: countries[0].imgUrl,
     positionName: positions[3].positionName,
     positionNumber: positions[3].positionNumber,
-    positionShortening: positions[3].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[3].positionShortening,
+    height: 208,
+    age: 32,
     number: 33,
     name: "Nikola Mirotic",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nikola-mirotic-1-1ee87d3a-e3eb-6760-99e6-e5901e0373c2.png",
     team: teams[12].teamName,
     teamImgUrl: teams[12].teamImgUrl,
   },
   {
-    id: 236,
+    id: 204,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 1,
-    name: "Rodney McGruder",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 237,
-    country: countries[16].name,
-    countryImgUrl: countries[16].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 6,
-    name: "Samuele Miccoli",
-    imgUrl: "", // required
-    team: teams[12].teamName,
-    teamImgUrl: teams[12].teamImgUrl,
-  },
-  {
-    id: 238,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 185,
+    age: 32,
     number: 13,
-    name: "Shabaz Bozie Napier",
-    imgUrl: "", // required
+    name: "Shabazz Bozie Napier",
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/shabazz-napier-1-1ee7e857-b9ee-6f20-a1e4-f1a794ee99c3.png",
     team: teams[12].teamName,
     teamImgUrl: teams[12].teamImgUrl,
   },
   {
-    id: 239,
+    id: 205,
     country: countries[21].name,
     countryImgUrl: countries[21].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 201,
+    age: 29,
     number: 31,
     name: "Shavon Shields",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/shavon-shields-1-1ee87d4b-be15-6f8e-9dde-e769e7af2e0e.png",
     team: teams[12].teamName,
     teamImgUrl: teams[12].teamImgUrl,
   },
   {
-    id: 240,
+    id: 206,
     country: countries[16].name,
     countryImgUrl: countries[16].imgUrl,
     positionName: positions[1].positionName,
     positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[1].positionShortening,
+    height: 194,
+    age: 30,
     number: 7,
     name: "Stefano Tonut",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/stefano-tonut-1-1ee87d52-1ad8-677a-ae03-d9ceddb200ad.png",
     team: teams[12].teamName,
     teamImgUrl: teams[12].teamImgUrl,
   },
   // ZALGIRIS
   {
-    id: 241,
+    id: 207,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 191,
+    age: 31,
     number: 51,
     name: "Arnas Butkevicius",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/arnas-butkevicius-1-1ee937e7-7d5b-688e-b191-b38f54f3db18.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 242,
+    id: 208,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 192,
+    age: 32,
     number: 20,
     name: "Austin Hollins",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/46504-1-5f8a0e9a1fc814.jpg",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 243,
+    id: 209,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 207,
+    age: 25,
     number: 45,
     name: "Brady Manek",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/brady-manek-1-1ee7e7a5-42db-6e18-9ca1-fd9c5032a916.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 244,
+    id: 210,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 207,
+    age: 24,
     number: 35,
     name: "Danielius Lavrinovicius",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/danielius-lavrinovicius-1-1ee937fb-df43-64e8-ad64-29b3c1f0608b.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 245,
+    id: 211,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 194,
+    age: 16,
     number: 31,
     name: "Dovydas Butka",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/dovydas-butka-1-1ee937e7-2896-6506-b448-99747c1d2d32.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 246,
+    id: 212,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[1].positionName,
     positionNumber: positions[1].positionNumber,
-    positionShortening: positions[1].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[1].positionShortening,
+    height: 192,
+    age: 23,
     number: 9,
     name: "Dovydas Giedraitis",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/dovydas-giedraitis-1-1ee937f0-62d9-6322-81da-c1ded83c0c4b.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 247,
+    id: 213,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 199,
+    age: 31,
     number: 92,
     name: "Edgaras Ulanovas",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/edgaras-ulanovas-1-1ee9385c-b1b5-6308-9d11-9b2f4b5b3442.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 248,
+    id: 214,
     country: countries[3].name,
     countryImgUrl: countries[3].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 26,
-    name: "Edmond Summer",
-    imgUrl: "", // required
-    team: teams[13].teamName,
-    teamImgUrl: teams[13].teamImgUrl,
-  },
-  {
-    id: 249,
-    country: countries[19].name,
-    countryImgUrl: countries[19].imgUrl,
-    positionName: positions[2].positionName,
-    positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
-    number: 17,
-    name: "Ignas Brazdeikis",
-    imgUrl: "", // required
-    team: teams[13].teamName,
-    teamImgUrl: teams[13].teamImgUrl,
-  },
-  {
-    id: 250,
-    country: countries[3].name,
-    countryImgUrl: countries[3].imgUrl,
-    positionName: positions[0].positionName,
-    positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 191,
+    age: 27,
     number: 2,
     name: "Keenan Evans",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/keenan-evans-1-1ee93866-6a44-6bfe-a031-0f3234ea1e29.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 251,
+    id: 215,
     country: countries[39].name,
     countryImgUrl: countries[39].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 206,
+    age: 26,
     number: 8,
     name: "Kevarrius Hayes",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/kevarrius-hayes-1-1ee7e809-1a74-6952-bae6-e7a4499b4e52.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 252,
+    id: 216,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[4].positionName,
     positionNumber: positions[4].positionNumber,
-    positionShortening: positions[4].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[4].positionShortening,
+    height: 213,
+    age: 26,
     number: 15,
     name: "Laurynas Birutis",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/laurynas-birutis-1-1ee937e5-ec4b-69d0-ab73-39239741ee0c.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 253,
+    id: 217,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 182,
+    age: 29,
     number: 4,
     name: "Lukas Lekavicius",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/lukas-lekavicius-1-1ee937fc-4288-65d0-8278-51b535a19b15.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 254,
+    id: 218,
     country: countries[2].name,
     countryImgUrl: countries[2].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 192,
+    age: 30,
     number: 3,
     name: "Naz Mitrou-Long",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nazareth-mitrou-long-1-1ee93804-abc3-69a2-9f08-bb8838bf3c1e.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 255,
+    id: 219,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 188,
+    age: 21,
     number: 12,
     name: "Nedas Montvila",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/nedas-montvila-1-1ee93805-edef-61e0-a31f-8de4f05ba5e9.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 256,
+    id: 220,
     country: countries[22].name,
     countryImgUrl: countries[22].imgUrl,
     positionName: positions[2].positionName,
     positionNumber: positions[2].positionNumber,
-    positionShortening: positions[2].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[2].positionShortening,
+    height: 207,
+    age: 28,
     number: 10,
     name: "Rolands Smith",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/rolands-smits-1-1ee93859-5495-6964-b916-e90abffe37f3.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
   {
-    id: 257,
+    id: 221,
     country: countries[19].name,
     countryImgUrl: countries[19].imgUrl,
     positionName: positions[0].positionName,
     positionNumber: positions[0].positionNumber,
-    positionShortening: positions[0].positionShortening, //required
-    height: 200, //required
-    age: 25, //required
+    positionShortening: positions[0].positionShortening,
+    height: 196,
+    age: 29,
     number: 33,
     name: "Tomas Dimsa",
-    imgUrl: "", // required
+    imgUrl: "https://www.proballers.com/media/cache/resize_300/https---www.proballers.com/ul/player/backup/tomas-dimsa-1-1ee7e862-9a7d-637a-87cf-59e4cd5a6a10.png",
     team: teams[13].teamName,
     teamImgUrl: teams[13].teamImgUrl,
   },
