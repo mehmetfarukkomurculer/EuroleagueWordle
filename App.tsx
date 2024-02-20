@@ -1,24 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { players } from './data/players';
+import { StatusBar } from "expo-status-bar";
+import { Provider } from "react-redux";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { NavigationContainer } from "@react-navigation/native";
+import store from "./redux/store";
+import StartGameScreen from "./screens/StartGameScreen";
+import GameScreen from "./screens/GameScreen";
+import { StackParamList } from "./interfaces/StackParamList";
+
+const Stack = createNativeStackNavigator<StackParamList>();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>{players[48].name}</Text>
-      <View style={{padding: 15,}}>
-        <Image source={{uri: players[48].imgUrl}} style={{width: 200, height:200 }} />
-      </View>
-      <StatusBar style="auto" />
-    </View>
+    <>
+    <StatusBar style="dark"/>
+    <Provider store={store}>
+      <NavigationContainer>
+        <Stack.Navigator screenOptions={{
+          headerShown: false,
+          contentStyle: {
+            backgroundColor: 'white',
+          }
+        }}>
+          <Stack.Screen name="Start" component={StartGameScreen}/>
+          <Stack.Screen name="Game" component={GameScreen}/>
+        </Stack.Navigator>
+      </NavigationContainer>
+    </Provider>
+    </>
+    
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

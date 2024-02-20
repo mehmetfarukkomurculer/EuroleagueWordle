@@ -1,8 +1,7 @@
 todo
-// remaining teams bayern, efes, alba, asvel
-// age, height info update needed
-// player img info needed
 
-// country and team images update needed
+// country update needed
 
-// implement the logic
+// selected players should be stored, and check if they are correct or not
+
+// render results. 
