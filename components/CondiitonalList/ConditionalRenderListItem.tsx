@@ -1,4 +1,5 @@
 import { Pressable, Image, View, Text, StyleSheet } from "react-native";
+import { Colors } from "../../utils/colors";
 
 interface ConditionalRenderListItemProps {
     teamUrl: string;
@@ -8,7 +9,7 @@ interface ConditionalRenderListItemProps {
 
 const ConditionalRenderListItem: React.FC<ConditionalRenderListItemProps> = ({ teamUrl, playerName, onPress }) => {
   return (
-    <Pressable onPress={onPress}>
+    <Pressable onPress={onPress} style={({pressed}) => pressed && styles.pressed}>
       <View style={styles.container}>
         <Image source={{uri: teamUrl}} style={styles.teamImg}/>
         <Text style={styles.playerNameText}>{playerName}</Text>
@@ -31,5 +32,9 @@ const styles = StyleSheet.create({
   },
   playerNameText: {
     fontSize: 16,
+  },
+  pressed: {
+    backgroundColor: Colors.grey300,
+    borderRadius: 4,
   }
 });

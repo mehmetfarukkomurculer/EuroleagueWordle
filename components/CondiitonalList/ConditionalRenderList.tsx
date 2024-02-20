@@ -37,7 +37,7 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
     );
   }
 
-  return <View><Text>fsdfdsf</Text></View>;
+  return <View><Text>No players found!</Text></View>;
 };
 
 export default ConditionalRenderList;

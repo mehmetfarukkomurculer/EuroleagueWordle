@@ -9,13 +9,15 @@ const SearchableDropdown = () => {
 
   function inputChangeHandler(selectedValue: string) {
     setValue(selectedValue);
-    if(value.length > 1){
+    if(selectedValue.length > 2){
         setToggle(true);
     }else{
         setToggle(false);
     }
   }
 
+  console.log(value, "value");
+  console.log(toggle, "toggle");
   function inputPressHandler(){
     setValue("");
     setToggle(true);
@@ -44,7 +46,7 @@ const styles = StyleSheet.create({
     },
     input: {
         padding: 16,
-        borderRadius: 16,
+        borderRadius: 4,
         borderWidth: 2,
         borderColor: Colors.orange500,
     }
