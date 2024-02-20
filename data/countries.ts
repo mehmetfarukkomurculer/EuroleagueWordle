@@ -48,162 +48,162 @@ Central African Republic 39 checked
 export const countries = [
     {
         name: 'Spain',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_sp-flag.gif',
     },
     {
         name: 'France',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_fr-flag.gif',
     },
     {
         name: 'Canada',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ca-flag.gif',
     },
     {
         name: 'USA',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_us-flag.gif',
     },
     {
         name: 'Turkey',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_tu-flag.gif',
     },
     {
         name: 'Greece',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_gr-flag.gif',
     },
     {
         name: 'Serbia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ri-flag.gif',
     },
     {
         name: 'Brazil',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_br-flag.gif',
     },
     {
         name: 'Bosnia-Herzegovina',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_bk-flag.gif',
     },
     {
         name: 'Israel',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_is-flag.gif',
     },
     {
         name: 'Russia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_rs-flag.gif',
     },
     {
         name: 'Argentina',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ar-flag.gif',
     },
     {
         name: 'Senegal',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_sg-flag.gif',
     },
     {
-        name: 'Crotia',
-        imgUrl: '',
+        name: 'Croatia',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_hr-flag.gif',
     },
     {
         name: 'Cape Verde Islands',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_cv-flag.gif',
     },
     {
         name: 'Cameroon',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_cm-flag.gif',
     },
     {
         name: 'Italy',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_it-flag.gif',
     },
     {
         name: 'Nigeria',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ni-flag.gif',
     },
     {
         name: 'Czech Republic',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ez-flag.gif',
     },
     {
         name: 'Lithuania',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_lh-flag.gif',
     },
     {
         name: 'Germany',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_gm-flag.gif',
     },
     {
         name: 'Denmark',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_da-flag.gif',
     },
     {
         name: 'Latvia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_lg-flag.gif',
     },
     {
         name: 'Georgia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_gg-flag.gif',
     },
     {
         name: 'Poland',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_pl-flag.gif',
     },
     {
         name: 'Guinea',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_gv-flag.gif',
     },
     {
         name: 'New Zealand',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_nz-flag.gif',
     },
     {
         name: 'Chad',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_cd-flag.gif',
     },
     {
         name: 'Uganda',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ug-flag.gif',
     },
     {
         name: 'Armenia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_am-flag.gif',
     },
     {
         name: 'Iceland',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_ic-flag.gif',
     },
     {
         name: 'Bulgaria',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_bu-flag.gif',
     },
     {
         name: 'Macedonia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_mk-flag.gif',
     },
     {
         name: 'Estonia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_en-flag.gif',
     },
     {
-        name: 'Ivory Coast',
-        imgUrl: '',
+        name: 'Côte d\'Ivoire',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_iv-flag.gif',
     },
     {
         name: 'Slovenia',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_si-flag.gif',
     },
     {
         name: 'Cuba',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_cu-flag.gif',
     },
     {
         name: 'Montenegro',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_mj-flag.gif',
     },
     {
         name: 'Hungary',
-        imgUrl: '',
+        imgUrl: 'https://www.worldometers.info/img/flags/small/tn_hu-flag.gif',
     },
     {
         name: 'Central African Republic',
-        imgUrl: '',
+        imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/250px-Flag_of_the_Central_African_Republic.svg.png',
     },
 ]
