@@ -6,10 +6,31 @@ import store from "./redux/store";
 import StartGameScreen from "./screens/StartGameScreen";
 import GameScreen from "./screens/GameScreen";
 import { StackParamList } from "./interfaces/StackParamList";
+import { useFonts } from "expo-font";
+import * as SplashScreen from "expo-splash-screen";
+import { useEffect } from "react";
 
 const Stack = createNativeStackNavigator<StackParamList>();
 
 export default function App() {
+
+  const [fontsLoaded] = useFonts({
+    Merriweather: require("./assets/fonts/Merriweather-Regular.ttf"),
+  });
+
+  useEffect(() => {
+    const prepare = async () => {
+      await SplashScreen.preventAutoHideAsync();
+    };
+    prepare();
+  }, []);
+
+  if (fontsLoaded) {
+    SplashScreen.hideAsync();
+  } else {
+    return undefined;
+  }
+
   return (
     <>
       <StatusBar style="dark" />

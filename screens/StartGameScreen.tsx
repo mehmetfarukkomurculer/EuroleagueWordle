@@ -1,10 +1,9 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Image } from "react-native";
 import Button from "../components/UI/Button";
 import { players } from "../data/players";
 import { useNavigation } from "@react-navigation/native";
 import { useAppDispatch } from "../redux/hooks";
 import { setCorrectAnswer } from "../redux/slices/correct-answer";
-
 
 const StartGameScreen = () => {
   
@@ -22,6 +21,7 @@ const StartGameScreen = () => {
 
   return (
     <View style={styles.container}>
+      <Image source={require('../assets/images/basketball.png')} style={styles.img}/>
       <Button onPress={startGameHandler} buttonTitle="PLAY" />
     </View>
   );
@@ -35,4 +35,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  img: {
+    width: 200,
+    height: 200,
+    margin: 24,
+  }
 });
