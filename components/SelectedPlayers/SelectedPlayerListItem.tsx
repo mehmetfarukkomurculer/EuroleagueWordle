@@ -2,7 +2,7 @@ import { View, Image, StyleSheet, Text } from "react-native";
 import CircularItem from "./CircularItem";
 import { useAppSelector } from "../../redux/hooks";
 import { Colors } from "../../utils/colors";
-
+import { FontAwesome } from '@expo/vector-icons';
 interface SelectedPlayerListItemProps {
   countryImgUrl: string;
   height: number;
@@ -54,7 +54,10 @@ const SelectedPlayerListItem: React.FC<SelectedPlayerListItemProps> = ({
                 : { backgroundColor: Colors.grey300 }
             }
           >
-            <Text>#{number}</Text>
+            <View style={styles.row}>
+                <Text style={{marginRight: 4}}>#{number}</Text>
+                {(correctAnswer && correctAnswer.number === number) ? null : (correctAnswer && correctAnswer.number < number) ? <FontAwesome name="long-arrow-down" size={16} color="black" /> : <FontAwesome name="long-arrow-up" size={16} color="black" />}
+            </View>
           </CircularItem>
           <Text style={styles.nameText}>NUM</Text>
         </View>
@@ -66,7 +69,10 @@ const SelectedPlayerListItem: React.FC<SelectedPlayerListItemProps> = ({
                 : { backgroundColor: Colors.grey300 }
             }
           >
-            <Text>{height}</Text>
+            <View style={styles.row}>
+                <Text style={{marginRight: 4}}>{height}</Text>
+                {(correctAnswer && correctAnswer.height === height) ? null : (correctAnswer && correctAnswer.height < height) ? <FontAwesome name="long-arrow-down" size={16} color="black" /> : <FontAwesome name="long-arrow-up" size={16} color="black" />}
+            </View>
           </CircularItem>
           <Text style={styles.nameText}>HEI</Text>
         </View>
@@ -78,7 +84,10 @@ const SelectedPlayerListItem: React.FC<SelectedPlayerListItemProps> = ({
                 : { backgroundColor: Colors.grey300 }
             }
           >
-            <Text>{age}</Text>
+            <View style={styles.row}>
+                <Text style={{marginRight: 4}}>{age}</Text>
+                {(correctAnswer && correctAnswer.age === age) ? <Text></Text> : (correctAnswer && correctAnswer.age < age) ? <FontAwesome name="long-arrow-down" size={16} color="black" /> : <FontAwesome name="long-arrow-up" size={16} color="black" />}
+            </View>
           </CircularItem>
           <Text style={styles.nameText}>AGE</Text>
         </View>
@@ -138,4 +147,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  }
 });

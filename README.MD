@@ -1,6 +1,5 @@
 todo
-
-// results larda aşağı yukarı arrowları ekle.
+// after game finished, re design the correct answer container. 
 // add animations while rendering results,
 // add animations while rendering the correct answer when 
 the game finished
