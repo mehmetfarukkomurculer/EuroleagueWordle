@@ -16,8 +16,11 @@ const correctAnswerSlice = createSlice({
     setCorrectAnswer(state, action: PayloadAction<playerInterface>) {
       state.correctAnswer = action.payload;
     },
+    clearCorrectAnswer(state){
+      state.correctAnswer = null;
+    }
   },
 });
 
-export const { setCorrectAnswer } = correctAnswerSlice.actions;
+export const { setCorrectAnswer, clearCorrectAnswer } = correctAnswerSlice.actions;
 export default correctAnswerSlice;

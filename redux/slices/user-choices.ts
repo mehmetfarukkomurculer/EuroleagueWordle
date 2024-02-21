@@ -16,8 +16,11 @@ const userChoicesSlice = createSlice({
     addNewChoice(state, action: PayloadAction<playerInterface>) {
       state.userChoices = [...state.userChoices, action.payload];
     },
+    clearChoices (state){
+      state.userChoices = [];
+    }
   },
 });
 
-export const { addNewChoice } = userChoicesSlice.actions;
+export const { addNewChoice, clearChoices } = userChoicesSlice.actions;
 export default userChoicesSlice;
