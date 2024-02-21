@@ -16,6 +16,7 @@ const GameScreen: React.FC<GameScreenProps> = ({ route }: any) => {
   const { selectedPlayer } = route.params;
   const navigation = useNavigation<any>();
   const userChoices = useAppSelector((state) => state.userChoices.userChoices);
+  
   const dispatch = useAppDispatch();
   let blurStyle = 36;
 

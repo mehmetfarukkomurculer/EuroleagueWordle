@@ -2,4 +2,8 @@ todo
 
 // results larda aşağı yukarı arrowları ekle.
 // add animations while rendering results,
-// add animations while rendering the correct answer when the game finished
+// add animations while rendering the correct answer when 
+the game finished
+// for the results add scrollToIndex function to focus on last answer of the player. 
+// add fonts
+// wait for te network images to be uploaded before starting the app. 

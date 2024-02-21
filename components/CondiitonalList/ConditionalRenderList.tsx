@@ -19,9 +19,6 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
   toggle,
   setToggle,
 }) => {
-  const correctAnswer = useAppSelector(
-    (state) => state.correctAnswer.correctAnswer
-  );
   const dispatch = useAppDispatch();
   const filteredPlayers = players.filter((player) => {
     return player.name.toString().toLowerCase().includes(value.toLowerCase());
@@ -46,7 +43,7 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
                 onPress={() => selectPlayerHandler(item.item)}
               />
             )}
-            style={{height: 200}}
+            style={{ height: 200 }}
             keyExtractor={(item) => item.id.toString()}
             showsVerticalScrollIndicator={false}
           />
@@ -66,10 +63,10 @@ export default ConditionalRenderList;
 
 const styles = StyleSheet.create({
   playerSearchContainer: {
-    position: 'absolute',
+    position: "absolute",
     top: 58,
     backgroundColor: Colors.grey200,
-    width: '100%',
+    width: "100%",
     shadowColor: Colors.grey600,
     shadowOpacity: 0.7,
     shadowOffset: {
@@ -77,5 +74,5 @@ const styles = StyleSheet.create({
       height: 8,
     },
     borderRadius: 8,
-  }
+  },
 });

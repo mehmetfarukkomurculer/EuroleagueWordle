@@ -12,21 +12,22 @@ const Stack = createNativeStackNavigator<StackParamList>();
 export default function App() {
   return (
     <>
-    <StatusBar style="dark"/>
-    <Provider store={store}>
-      <NavigationContainer>
-        <Stack.Navigator screenOptions={{
-          headerShown: false,
-          contentStyle: {
-            backgroundColor: 'white',
-          }
-        }}>
-          <Stack.Screen name="Start" component={StartGameScreen}/>
-          <Stack.Screen name="Game" component={GameScreen}/>
-        </Stack.Navigator>
-      </NavigationContainer>
-    </Provider>
+      <StatusBar style="dark" />
+      <Provider store={store}>
+        <NavigationContainer>
+          <Stack.Navigator
+            screenOptions={{
+              headerShown: false,
+              contentStyle: {
+                backgroundColor: "white",
+              },
+            }}
+          >
+            <Stack.Screen name="Start" component={StartGameScreen} />
+            <Stack.Screen name="Game" component={GameScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </Provider>
     </>
-    
   );
 }

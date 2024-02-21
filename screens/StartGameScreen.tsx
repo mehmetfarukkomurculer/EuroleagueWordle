@@ -5,9 +5,13 @@ import { useNavigation } from "@react-navigation/native";
 import { useAppDispatch } from "../redux/hooks";
 import { setCorrectAnswer } from "../redux/slices/correct-answer";
 
+
 const StartGameScreen = () => {
+  
   const navigation = useNavigation<any>();
   const dispatch = useAppDispatch();
+ 
+
   function startGameHandler() {
     const randomPlayerIndex = Math.floor(Math.random() * 291);
     console.log("randomPlayerIndex", randomPlayerIndex);
@@ -15,7 +19,7 @@ const StartGameScreen = () => {
     dispatch(setCorrectAnswer(players[randomPlayerIndex]));
     navigation.navigate("Game", { selectedPlayer: selectedPlayer });
   }
-  
+
   return (
     <View style={styles.container}>
       <Button onPress={startGameHandler} buttonTitle="PLAY" />

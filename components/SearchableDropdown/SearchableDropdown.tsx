@@ -18,10 +18,6 @@ const SearchableDropdown = () => {
 
   console.log(value, "value");
   console.log(toggle, "toggle");
-  function inputPressHandler() {
-    setValue("");
-    setToggle(true);
-  }
 
   return (
     <View style={styles.container}>
@@ -29,7 +25,6 @@ const SearchableDropdown = () => {
         <TextInput
           value={value}
           onChangeText={inputChangeHandler}
-          //onPressIn={inputPressHandler}
           style={styles.input}
         />
         <Text>{userChoices.length}/8</Text>
@@ -59,11 +54,11 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   inputContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     borderWidth: 2,
     borderColor: Colors.orange500,
     borderRadius: 4,
     padding: 16,
-  }
+  },
 });

@@ -6,7 +6,7 @@ interface correctAnswerState {
 }
 
 const initialState: correctAnswerState = {
-    correctAnswer: null,
+  correctAnswer: null,
 };
 
 const correctAnswerSlice = createSlice({
@@ -16,11 +16,12 @@ const correctAnswerSlice = createSlice({
     setCorrectAnswer(state, action: PayloadAction<playerInterface>) {
       state.correctAnswer = action.payload;
     },
-    clearCorrectAnswer(state){
+    clearCorrectAnswer(state) {
       state.correctAnswer = null;
-    }
+    },
   },
 });
 
-export const { setCorrectAnswer, clearCorrectAnswer } = correctAnswerSlice.actions;
+export const { setCorrectAnswer, clearCorrectAnswer } =
+  correctAnswerSlice.actions;
 export default correctAnswerSlice;

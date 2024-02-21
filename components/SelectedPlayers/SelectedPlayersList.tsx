@@ -1,22 +1,13 @@
-import React, { useRef } from "react";
 import { FlatList, StyleSheet } from "react-native";
 import { useAppSelector } from "../../redux/hooks";
 import SelectedPlayerListItem from "./SelectedPlayerListItem";
 
 const SelectedPlayersList = () => {
-  const userChoices = useAppSelector(
-    (state) => state.userChoices.userChoices
-  );
-  const flatListRef = useRef<FlatList | null>(null);
-
-  const scrollToIndex = (index: number) => {
-    flatListRef.current?.scrollToIndex({ animated: true, index });
-  };
+  const userChoices = useAppSelector((state) => state.userChoices.userChoices);
 
   return (
     userChoices && (
       <FlatList
-        ref={(ref) => (flatListRef.current = ref)}
         style={styles.results}
         data={userChoices}
         keyExtractor={(item) => item.id.toString() + Math.random() * 100}
