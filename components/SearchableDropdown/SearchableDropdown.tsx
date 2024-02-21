@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
         margin: 8,
     },
     input: {
+        position: 'relative',
         padding: 16,
         borderRadius: 4,
         borderWidth: 2,

@@ -11,7 +11,7 @@ interface GameScreenProps {
 
 const GameScreen: React.FC<GameScreenProps> = ({ route }: any) => {
     const { selectedPlayer } = route.params;
-
+    
     const userChoices = useAppSelector((state) => state.userChoices.userChoices);
     let blurStyle = 36;
 
