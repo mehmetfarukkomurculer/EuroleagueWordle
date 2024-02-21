@@ -54,6 +54,9 @@ const styles = StyleSheet.create({
   input: {
     position: "relative",
     flex: 4,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.orange500,
+    padding: 4,
   },
   inputContainer: {
     flexDirection: 'row',

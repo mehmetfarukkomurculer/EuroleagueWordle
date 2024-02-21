@@ -46,7 +46,9 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
                 onPress={() => selectPlayerHandler(item.item)}
               />
             )}
+            style={{height: 200}}
             keyExtractor={(item) => item.id.toString()}
+            showsVerticalScrollIndicator={false}
           />
         </View>
       )
