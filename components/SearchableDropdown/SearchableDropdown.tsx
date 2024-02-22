@@ -24,7 +24,7 @@ const SearchableDropdown = () => {
           onChangeText={inputChangeHandler}
           style={styles.input}
         />
-        <Text>{userChoices.length}/8</Text>
+        <Text style={styles.remainedChoiceText}>{userChoices.length}/8</Text>
       </View>
       <ConditionalRenderList
         value={value}
@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: Colors.orange500,
     padding: 4,
+    fontFamily: 'Merriweather',
   },
   inputContainer: {
     flexDirection: "row",
@@ -58,4 +59,8 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     padding: 16,
   },
+  remainedChoiceText: {
+    fontFamily: 'Merriweather',
+    fontSize: 18,
+  }
 });

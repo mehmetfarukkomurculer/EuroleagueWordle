@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   playerNameText: {
     fontSize: 16,
+    fontFamily: 'Merriweather',
   },
   pressed: {
     backgroundColor: Colors.grey300,
