@@ -1,4 +1,11 @@
-import { View, Image, StyleSheet, Text, Pressable } from "react-native";
+import {
+  View,
+  Image,
+  StyleSheet,
+  Text,
+  Pressable,
+  Animated,
+} from "react-native";
 import SearchableDropdown from "../components/SearchableDropdown/SearchableDropdown";
 import SelectedPlayersList from "../components/SelectedPlayers/SelectedPlayersList";
 import { StackParamList } from "../interfaces/StackParamList";
@@ -8,8 +15,8 @@ import Button from "../components/UI/Button";
 import { useNavigation } from "@react-navigation/native";
 import { clearChoices } from "../redux/slices/user-choices";
 import { clearCorrectAnswer } from "../redux/slices/correct-answer";
-import { FontAwesome } from '@expo/vector-icons';
-
+import { FontAwesome } from "@expo/vector-icons";
+import { useEffect, useRef } from "react";
 
 interface GameScreenProps {
   route: RouteProp<StackParamList, "Game">;
@@ -49,9 +56,11 @@ const GameScreen: React.FC<GameScreenProps> = ({ route }: any) => {
     <View style={styles.container}>
       <View style={styles.appBar}>
         <Text style={styles.headerText}>GUESS THE PLAYER</Text>
-        <Pressable onPress={() => {
-          navigation.navigate("History");
-        }}>
+        <Pressable
+          onPress={() => {
+            navigation.navigate("History");
+          }}
+        >
           <FontAwesome name="history" size={24} color="black" />
         </Pressable>
       </View>
@@ -98,12 +107,12 @@ const styles = StyleSheet.create({
   appBar: {
     height: 50,
     width: "100%",
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingHorizontal: 16,
   },
   headerText: {
     fontFamily: "Merriweather",
     fontSize: 24,
-  }
+  },
 });

@@ -3,6 +3,8 @@ import { useAppSelector } from "../../redux/hooks";
 import SelectedPlayerListItem from "./SelectedPlayerListItem";
 import { useRef } from "react";
 
+
+
 const SelectedPlayersList = () => {
   const userChoices = useAppSelector((state) => state.userChoices.userChoices);
   const ref = useRef<any>();
@@ -12,7 +14,7 @@ const SelectedPlayersList = () => {
       ref.current.scrollToIndex({ animated: true, index: userChoices.length -1 });
     }
   };
-
+  
   const handleContentSizeChange = () => {
     setTimeout(() => scrollToIndex(), 200);
   };

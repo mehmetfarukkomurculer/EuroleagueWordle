@@ -1,8 +1,10 @@
-import { View, Image, StyleSheet, Text } from "react-native";
+import { View, Image, StyleSheet, Text, Animated } from "react-native";
 import CircularItem from "./CircularItem";
 import { useAppSelector } from "../../redux/hooks";
 import { Colors } from "../../utils/colors";
 import { FontAwesome } from '@expo/vector-icons';
+import { useRef, useEffect } from "react";
+
 interface SelectedPlayerListItemProps {
   countryImgUrl: string;
   height: number;
@@ -27,8 +29,11 @@ const SelectedPlayerListItem: React.FC<SelectedPlayerListItemProps> = ({
   );
   console.log(correctAnswer);
 
+ 
+
+
   return (
-    <View style={styles.mainContainer}>
+    <Animated.View style={styles.mainContainer}>
       <Text style={styles.nameText}>{playerName}</Text>
       <View style={styles.container}>
         <View>
@@ -119,7 +124,7 @@ const SelectedPlayerListItem: React.FC<SelectedPlayerListItemProps> = ({
           <Text style={styles.nameText}>TEAM</Text>
         </View>
       </View>
-    </View>
+    </Animated.View>
   );
 };
 
