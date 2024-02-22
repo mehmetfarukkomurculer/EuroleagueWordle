@@ -16,9 +16,6 @@ const SearchableDropdown = () => {
     }
   }
 
-  console.log(value, "value");
-  console.log(toggle, "toggle");
-
   return (
     <View style={styles.container}>
       <View style={styles.inputContainer}>

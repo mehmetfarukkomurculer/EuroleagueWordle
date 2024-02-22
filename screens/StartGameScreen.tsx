@@ -13,7 +13,6 @@ const StartGameScreen = () => {
 
   function startGameHandler() {
     const randomPlayerIndex = Math.floor(Math.random() * 291);
-    console.log("randomPlayerIndex", randomPlayerIndex);
     const selectedPlayer = players[randomPlayerIndex];
     dispatch(setCorrectAnswer(players[randomPlayerIndex]));
     navigation.navigate("Game", { selectedPlayer: selectedPlayer });

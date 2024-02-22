@@ -9,11 +9,11 @@ import { StackParamList } from "./interfaces/StackParamList";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
+import HistoryScreen from "./screens/History";
 
 const Stack = createNativeStackNavigator<StackParamList>();
 
 export default function App() {
-
   const [fontsLoaded] = useFonts({
     Merriweather: require("./assets/fonts/Merriweather-Regular.ttf"),
   });
@@ -38,14 +38,31 @@ export default function App() {
         <NavigationContainer>
           <Stack.Navigator
             screenOptions={{
-              headerShown: false,
               contentStyle: {
                 backgroundColor: "white",
+                
               },
+              headerShown: false,
             }}
           >
-            <Stack.Screen name="Start" component={StartGameScreen} />
-            <Stack.Screen name="Game" component={GameScreen} />
+            <Stack.Screen
+              name="Start"
+              component={StartGameScreen}
+            />
+            <Stack.Screen
+              name="Game"
+              component={GameScreen}
+              options={{
+                gestureEnabled: false,
+              }}
+            />
+            <Stack.Screen
+              name="History"
+              component={HistoryScreen}
+              options={{
+                gestureEnabled: false,
+              }}
+            />
           </Stack.Navigator>
         </NavigationContainer>
       </Provider>

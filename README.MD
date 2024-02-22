@@ -9,3 +9,4 @@ the game finished
 // within the searchable drowdown, FlatList height should be sized again. When only a few player exist in search results, FlatList's height seems larger. 
 
 // add banner might be added to understand that. 
+// use loaded fonts in the required places.
