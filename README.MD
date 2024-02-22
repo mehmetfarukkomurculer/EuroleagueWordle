@@ -5,8 +5,7 @@ todo
 the game finished
 // for the results add scrollToIndex function to focus on last answer of the player. 
 // add fonts
-// wait for te network images to be uploaded before starting the app. 
-// within the searchable drowdown, FlatList height should be sized again. When only a few player exist in search results, FlatList's height seems larger. 
+// wait for te network images to be uploaded before starting the app.  
 
 // add banner might be added to understand that. 
 // use loaded fonts in the required places.
