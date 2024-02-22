@@ -1,11 +1,12 @@
 import { FlatList, Text, View, StyleSheet } from "react-native";
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useRef, useState } from "react";
 import { players } from "../../data/players";
 import ConditionalRenderListItem from "./ConditionalRenderListItem";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import { playerInterface } from "../../interfaces/playerInterface";
 import { addNewChoice } from "../../redux/slices/user-choices";
 import { Colors } from "../../utils/colors";
+
 interface ConditionalRenderListProps {
   value: string;
   setValue: Dispatch<SetStateAction<string>>;
@@ -20,6 +21,7 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
   setToggle,
 }) => {
   const dispatch = useAppDispatch();
+  
   const filteredPlayers = players.filter((player) => {
     return player.name.toString().toLowerCase().includes(value.toLowerCase());
   });
@@ -29,12 +31,13 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
     setToggle(false);
     setValue("");
   }
-
+  
   if (filteredPlayers.length > 0) {
     return (
       toggle && (
         <View style={styles.playerSearchContainer}>
           <FlatList
+           
             data={filteredPlayers}
             renderItem={(item) => (
               <ConditionalRenderListItem
@@ -43,9 +46,10 @@ const ConditionalRenderList: React.FC<ConditionalRenderListProps> = ({
                 onPress={() => selectPlayerHandler(item.item)}
               />
             )}
-            style={{ height: 200 }}
             keyExtractor={(item) => item.id.toString()}
-            showsVerticalScrollIndicator={false}
+            showsVerticalScrollIndicator={true}
+            indicatorStyle="black"
+            style={{height: filteredPlayers.length > 1 ? 116 : 58}}
           />
         </View>
       )
