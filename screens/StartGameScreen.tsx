@@ -12,7 +12,7 @@ const StartGameScreen = () => {
  
 
   function startGameHandler() {
-    const randomPlayerIndex = Math.floor(Math.random() * 291);
+    const randomPlayerIndex = Math.floor(Math.random() * 290);
     const selectedPlayer = players[randomPlayerIndex];
     dispatch(setCorrectAnswer(players[randomPlayerIndex]));
     navigation.navigate("Game", { selectedPlayer: selectedPlayer });
@@ -20,7 +20,7 @@ const StartGameScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/basketball.png')} style={styles.img}/>
+      <Image source={require('../assets/images/basketball.png')} style={styles.img} alt="player-img"/>
       <Button onPress={startGameHandler} buttonTitle="PLAY" />
     </View>
   );

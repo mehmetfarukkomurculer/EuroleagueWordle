@@ -67,7 +67,7 @@ const GameScreen: React.FC<GameScreenProps> = ({ route }: any) => {
       {userChoices.length === 8 ||
       userChoices.find((userChoice) => userChoice.id === selectedPlayer.id) ? (
         <>
-          <Image source={{ uri: selectedPlayer.imgUrl }} style={styles.img} />
+          <Image source={{ uri: selectedPlayer.imgUrl.replace('https---www.proballers.com/', '')}} style={styles.img} />
           <Text style={styles.playerNameText}>{selectedPlayer.name}</Text>
           <Button onPress={finishGameHandler} buttonTitle="PLAY AGAIN" />
         </>
